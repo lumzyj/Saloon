@@ -1,0 +1,522 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+  
+}
+.salon-logo {
+  font-family: "Petemoss", cursive;
+  font-size: 3rem;
+  padding-left: 30px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  vertical-align: middle;
+  height: auto;
+}
+
+.logo-nav {
+  margin-right: auto;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.nav-area * {
+  display: inline;
+  padding: 20px;
+  margin: auto 0;
+}
+
+.nav-area {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.nav-image {
+  width: 20px;
+}
+
+.btn {
+  height: 30px;
+  width: 180px;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+  color: #000;
+  text-align: center;
+  background: #fff;
+}
+.primary {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  background: #000;
+}
+
+.main-header .btn.nav {
+  padding-right: 30px;
+}
+
+/*  */
+.main-img {
+  width: 100%;
+  position: relative;
+}
+
+.title-overlay {
+  position: absolute;
+  top: 680px;
+  right: 50px;
+  text-align: left;
+  width: 35%;
+}
+
+.title-overlay h1 {
+  font-size: 6.5rem;
+  color: #fff;
+}
+
+.title-overlay h2 {
+  font-size: 1.3rem;
+  color: #FFF;
+  margin: 20px 0;
+}
+
+.opening-times {
+  position: absolute;
+  top: 450px;
+  right: 1270px;
+  text-align: left;
+  width: 35%;
+  transform: rotate(-90deg);
+}
+
+.opening-times h3 {
+  color: white;
+}
+
+.new-comers {
+  background: #000;
+  position: absolute;
+  top: 1090px;
+  right: 200px;
+  height: 280px;
+  text-align: left;
+  width: 20%;
+}
+
+.new-comers h3:first-child {
+  color: white;
+  font-size: 1.3rem;
+  border-left: 4px solid white;
+  margin: 30px 0;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.new-comers h3:nth-child(2) {
+  color: white;
+  font-size: 1.5rem;
+  padding-left: 20px;
+  line-height: 40px;
+  margin: 0 0 20px 0;
+}
+
+.new-comers span {
+  color: #FFF;
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.new-comers .btn.nav {
+  margin-left: 20px;
+}
+
+.arrows {
+  position: absolute;
+  top: 120px;
+  right: 10px;
+  height: 50px;
+  text-align: right;
+  width: 20%;
+  color: #fff;
+}
+
+.arrows span {
+  padding-right: 50px;
+  font-size: 1.5rem;
+}
+/*  */
+.services {
+  height: 320px;
+  margin: 240px 0 0 0;
+  padding: 0 150px;
+}
+
+.panel1,
+.panel2,
+.panel3 {
+  width: 33.3333%;
+  float: left;
+  padding: 25px;
+}
+
+.panel-image {
+  display: inline-block;
+  margin: 0 150px;
+  width: 70px;
+}
+.panel-title {
+  font-weight: 600;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.panel-description {
+  text-align: center;
+  line-height: 30px;
+}
+
+/*  */
+.make-your-own-momentum {
+  clear: both;
+  margin: 50px;
+  height: 550px;
+  background: #F0EFED;
+}
+
+.text-area,
+.sub-image {
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+}
+
+.text-area {
+  padding-left: 180px;
+}
+
+.subheading {
+  font-size: 3.2rem;
+  line-height: 60px;
+}
+
+.sub-paragraph {
+  font-size: 1.2rem;
+  line-height: 30px;
+  margin-top: 30px;
+  padding-right: 30px;
+}
+
+.sub-img {
+  width: 90%;
+}
+
+.text-area .btn.primary {
+  margin-top: 20px;
+}
+
+
+/*  */
+.caption {
+  width: 200px;
+  background: #000;
+}
+
+.staff-name,
+.staff-role {
+  color: #fff;
+  text-align: center;
+}
+
+.staff-name {
+  font-weight: 600;
+}
+
+.container {
+  width: 50%;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.staff-container {
+  width: 50%;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+
+.img-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+  grid-template-areas: "staff-3 staff-2 staff-1";
+}
+
+.img-container a {
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+ .staff-1 { 
+  grid-area: staff-1;
+  background-image: url("../images/staff-1.jpeg");
+ } 
+
+.staff-2 {
+  grid-area: staff-2;
+  background-image: url("../images/staff-2.jpeg");
+}
+.staff-3 {
+  grid-area: staff-3;
+  background-image: url("../images/staff-3.jpeg");
+}
+
+
+/*  */
+.discount-section {
+  margin: 50px 0 0 0;
+  height: 600px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.discount-img {
+  height: 100%;
+}
+
+.discount-offer {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.discount-offer h3:first-child {
+  margin: 200px 0 0 0;
+  font-size: 2.7rem;
+}
+.discount-offer h3 {
+  font-size: 1.5rem;
+  margin: 20px 0 0 0;
+}
+.discount-offer span {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.discount-offer > a {
+  background: rgb(0, 0, 0);
+  width: auto;
+  color: white;
+  margin: 30px 0 0 0;
+}
+
+/*  */
+
+.lookbook-title {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 50px 0 0 0;
+}
+
+.lookbook-title h2 {
+  font-size: 3.5rem;
+  border-bottom: 3px solid black;
+}
+
+.image-container {
+  margin: 50px 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 1.5rem;
+  grid-template-areas:
+    "img-1 img-2 img-3"
+    "img-4 img-5 img-6";
+}
+
+.image-container a {
+  width: 100%;
+  height: 25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.image-container a i {
+  font-size: 3rem;
+  position: relative;
+  z-index: 100;
+  padding: 1rem 3rem;
+  border-radius: 0.4rem;
+}
+
+.img-1 {
+  grid-area: img-1;
+  background-image: url("../images/model-1.jpg");
+}
+
+.img-2 {
+  grid-area: img-2;
+  background-image: url("../images/model-2.jpg");
+}
+.img-3 {
+  grid-area: img-3;
+  background-image: url("../images/model-3.jpg");
+}
+.img-4 {
+  grid-area: img-4;
+  background-image: url("../images/model-4.jpg");
+}
+.img-5 {
+  grid-area: img-5;
+  background-image: url("../images/model-5.jpg");
+}
+.img-6 {
+  grid-area: img-6;
+  background-image: url("../images/model-6.jpg");
+}
+
+/*  */
+.footer{
+  margin-top: 50vh;
+  height: 60vh;
+  background-color: #F0EFED;
+  padding:4rem;
+}
+.container-footer{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+.footer-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.saloon-logo{
+  font-family: "Petemoss", cursive;
+  font-size: 3rem;
+}
+
+.foot-icon{
+  margin-top: 10.5rem;
+}
+
+.footer-text{
+  padding: 2.5rem;
+  margin-left: 40px;
+}
+
+.footer-list>ul>li{
+  list-style-type: none;
+  line-height: 30px;
+
+  
+
+}
+
+/*  */
+.Signup-im1{
+  margin-top: 90px;
+  margin-left: 50px;
+  margin-right: 40px;
+  background-image: url("../images/tools.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height:150vh;
+  width: 190vh;
+  padding-top:20vh;
+  padding-left: 35vh;
+}
+.Signup-im2{
+  width:120vh;
+  height:115VH;
+  background-color: #fff;
+  padding-top: 15vh;
+  padding-bottom: 10vh;
+  padding-left: 15vh;
+  padding-right: 15vh;
+}
+.signup-logo{
+  font-family: "Petemoss", cursive;
+  font-size: 3rem;
+  text-align: center;
+  
+}
+.Signup-im3{
+  background-color:#F0EFED;
+  border-radius: 10px;
+  margin-top: 40px;
+  width:90vh;
+  height:70vh;
+}
+.form-im{
+  padding-top: 9rem;
+  align-items: center;
+  text-align: center;
+}
+.form-im>p{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.sign-f>input{
+border-radius: 10px;
+margin: 15px;
+width: 30vh;
+height: 40px;
+
+}
+.form-im>span>a{
+  text-decoration: none;
+  color:#000;
+}
+.form-im>span>a:hover{
+  color:#fff;
+}
+.sign-f>input[type="button"]{
+    background-color: #C4C4C4;
+    cursor: pointer;
+}
+.sign-f>input[type="button"]:hover{
+  color:#fff
+}
